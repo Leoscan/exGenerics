@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Pedido <T extends ProdutoX> {
 	
-	private ArrayList<T> ListaProdutos = new ArrayList();
+	private ArrayList<T> ListaProdutos = new ArrayList<>();
 
 	
 	public ArrayList<T> getListaProdutos() {
